@@ -29,10 +29,7 @@ class Car {
       console.log('===');
       this.owner.showInfo();
     } else console.log('There is no owner');
-    console.log(this.brand);
-    console.log(this.model);
-    console.log(this.date);
-    console.log(this.licenseplate);
+    console.log(this.brand, this.model, this.date, this.licenseplate);
   }
 }
 
